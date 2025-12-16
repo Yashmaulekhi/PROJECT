@@ -5,8 +5,9 @@ html {
 span {
   display: block;
 }
+
 .canvas {
-  margin: 100px auto 100px;
+  margin: 100px auto;
   width: 80%;
   text-align: center;
 }
@@ -14,20 +15,29 @@ span {
 .button {
   width: 100px;
   height: 100px;
-  border: solid black 2px;
+  border: 2px solid black;
   display: inline-block;
+  cursor: pointer;
 }
 
 #grey {
-  background: grey;
+  background-color: grey;
 }
 
 #white {
-  background: white;
+  background-color: white;
 }
+
 #blue {
-  background: blue;
+  background-color: blue;
 }
+
 #yellow {
-  background: yellow;
+  background-color: rgb(226, 229, 55);
+}
+#red {
+  background-color: rgb(239, 99, 34);
+}
+#purple {
+  background-color: rgb(205, 34, 239);
 }
